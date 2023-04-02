@@ -1,0 +1,42 @@
+.link {
+    text-decoration: none;
+    color : white;
+    padding: 0.5%;
+    border-bottom: solid 2px transparent;
+}
+
+@keyframes slow {
+    0% {
+        border-bottom-color: transparent;
+    }
+    100% {
+        border-bottom-color: #DC7000;
+    }
+}
+
+.link:hover {
+    border-bottom: solid 2px #DC7000;
+    animation: slow 0.5s;
+}
+
+.link:nth-child(n) {
+    margin: 1%;
+}
+
+/* active */
+
+.linkActive {
+    color: #DC7000;
+    text-decoration: none;
+    padding: 0.5%;
+    border-bottom: solid 2px transparent;
+}
+
+.linkActive:hover {
+    border-bottom: solid 2px #DC7000;
+    animation: slow 0.5s;
+}
+
+.linkActive:nth-child(n) {
+    margin: 1%;
+}
