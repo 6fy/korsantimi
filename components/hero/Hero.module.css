@@ -1,0 +1,50 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.heroLeft {
+    width: 50%;
+    color: white;
+    margin-top: 2.5%;
+}
+
+.heroLeft h4 {
+    color: #E87D0E;
+}
+
+.heroLeft h1 {
+    margin-top: 2.5%;
+    font-size: 5.5rem;
+}
+
+.heroLeft p {
+    margin-top: 2.5%;
+}
+
+.logoContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    align-items: center;
+}
+
+.logoContainer img {
+    width: 50%;
+}
+
+.buttonNews {
+    margin-top: 2.5%;
+    width: 25%;
+    padding: 1.5%;
+    color: white;
+    background-color: #E87D0E;
+    border: none;
+    border-radius: 10px;
+}
+
+.buttonNews:hover {
+    background-color: #F5A623;
+}
