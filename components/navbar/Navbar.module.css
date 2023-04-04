@@ -1,4 +1,19 @@
+.menuIcon {
+    display: none;
+    color: white;
+    font-size: xxx-large;
+}
+
 .container {
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5%;
+}
+
+.containerActive {
     height: 5vh;
     display: flex;
     flex-direction: row;
@@ -30,4 +45,47 @@
 
 .navbarRight a:hover {
     background-color: #F5A623;
+}
+
+@media screen and (max-width: 768px) {
+    .menuIcon {
+        display: block;
+    }
+
+    .container {
+        display: none;
+    }
+
+    .containerActive {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbarLeft {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbarLeft a {
+        width: 100%;
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+        font-size: large;
+    }
+
+    .navbarRight {
+        width: 100%;
+        margin-top: 2.5%;
+        flex-direction: column;
+        font-size: large;
+    }
+
+    .navbarRight a {
+        width: 100%;
+        margin-top: 5%;
+    }
+
 }
