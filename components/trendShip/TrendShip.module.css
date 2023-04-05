@@ -32,3 +32,17 @@
 .button:hover {
     background: rgba(255, 255, 255, 0.2);
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin-top: 10%;
+    }
+    .stackRow {
+        flex-direction: column;
+    }
+
+    .button {
+        margin-top: 5%;
+        font-size: large;
+    }
+}
