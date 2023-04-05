@@ -25,7 +25,7 @@
     text-align: start;
 }
 
-.containerRightSide {
+.contactRightSide {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -65,5 +65,29 @@
 
 .inputContainer button:hover {
     background-color: #F9A000;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin-top: 10%;
+    }
+
+    .contactContainer {
+        flex-direction: column;
+    }
+
+    .contactLeftSide {
+        width: 100%;
+    }
+
+    .contactRightSide {
+        margin-top: 5%;
+        width: 100%;
+        padding-bottom: 5%;
+    }
+
+    .inputContainer {
+        width: 90%;
+    }
 }
 
