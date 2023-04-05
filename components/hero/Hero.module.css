@@ -47,3 +47,27 @@
 .buttonNews:hover {
     background-color: #F5A623;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .heroLeft {
+        width: 100%;
+    }
+
+    .heroLeft p {
+        font-size: large;
+        text-align: justify;
+    }
+
+    .buttonNews {
+        width: 100%;
+        font-size: xxx-large;
+    }
+
+    .logoContainer {
+        display: none;
+    }
+}
