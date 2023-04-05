@@ -15,7 +15,7 @@ const Contact = () => {
             promise not to spam you!{" "}
           </p>
         </div>
-        <div className={style.containerRightSide}>
+        <div className={style.contactRightSide}>
           <div className={style.inputContainer}>
             <input type="text" placeholder="Enter email address" />
             <button>Continue</button>
