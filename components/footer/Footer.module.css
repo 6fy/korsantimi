@@ -1,0 +1,122 @@
+.container {
+    margin-top: 10%;
+    background-color: black;
+}
+
+.container p {
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.bottomNavigation {
+    display: flex;
+    flex-direction: row;
+    padding: 2.5% 6%;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.logoContainer {
+    width: 25%;
+}
+
+.logoContainer h1 {
+    color: white;
+    text-align: start;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.logoContainer p {
+    color: white;
+    text-align: start;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.bottomNavigationLinkContainer {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.bottomNavigationLinkContainer h3 {
+    font-weight: bold;
+    color: white;
+}
+
+.bottomNavigationLinkContainer a {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    text-decoration: none;
+    color: white;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+.bottomNavigation a:hover {
+    color: #D2D2D2;
+}
+
+.bottomNavigationContent {
+    width: 25%;
+}
+
+.bottomNavigationContent h3 {
+    color: white;
+}
+
+.bottomNavigationContent p {
+    text-align: start;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+
+.bottomNavigationSocialMedia {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.socialMedia {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    text-decoration: none;
+    background-color: white;;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .bottomNavigation {
+        flex-direction: column;
+    }
+
+    .logoContainer {
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    .bottomNavigationLinkContainer {
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    .bottomNavigationContent {
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    .bottomNavigationSocialMedia {
+        margin-top: 10%;
+        width: 100%;
+    }
+}
