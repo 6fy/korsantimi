@@ -70,15 +70,19 @@
 @media screen and (max-width: 768px) {
     .container {
         margin-top: 10%;
+        text-align: center;
     }
 
     .contactContainer {
         margin-top: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
         flex-direction: column;
     }
 
     .contactLeftSide {
         width: 100%;
+        text-align: center;
     }
 
     .contactRightSide {
